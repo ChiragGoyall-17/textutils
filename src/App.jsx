@@ -39,7 +39,7 @@ function App() {
    }
   
    return (
-     <BrowserRouter>
+     <BrowserRouter basename="/textUtils">
         <Navbar title="Textutils" aboutText="About" mode={mode} toggleMode={toggleMode}/>
         <Alert alert={alert} />
         <Routes>
